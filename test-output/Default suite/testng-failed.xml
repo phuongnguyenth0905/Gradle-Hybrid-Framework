@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.nopcommerce.users.Level_16_Register_Login_Close_Browser">
+        <methods>
+          <include name="TC_02_Sort_Name_Descending"/>
+          <include name="afterClass"/>
+          <include name="TC_01_Sort_Name_Ascendingr"/>
+          <include name="beforeClass"/>
+          <include name="TC_04_Sort_Price_Descending"/>
+          <include name="TC_03_Sort_Price_Ascending"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_16_Register_Login_Close_Browser -->
+      <class name="com.nopcommerce.users.Level_15_Register_Login_Share_State_Part1_Search">
+        <methods>
+          <include name="TC_03_Search_Product_With_Sub_Category"/>
+          <include name="TC_02_Search_Product_With_Category"/>
+          <include name="beforeClass"/>
+          <include name="TC_04_Search_Product_With_Price"/>
+          <include name="TC_01_Search_Product_With_Namer"/>
+          <include name="afterClass"/>
+          <include name="TC_05_Search_Product_With_Manufacturer"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_15_Register_Login_Share_State_Part1_Search -->
+      <class name="com.liveguru.user.Level_18_Live_Coding_Liveguru">
+        <methods>
+          <include name="afterClass"/>
+          <include name="TC_04_Product_Price"/>
+          <include name="TC_11_Search_Product"/>
+          <include name="TC_02_Login_To_System"/>
+          <include name="TC_03_Account_Information"/>
+          <include name="TC_07_Compare_Product"/>
+          <include name="beforeClass"/>
+          <include name="TC_08_Share_Wishlist"/>
+          <include name="TC_09_Add_Review"/>
+        </methods>
+      </class> <!-- com.liveguru.user.Level_18_Live_Coding_Liveguru -->
+      <class name="com.nopcommerce.users.Level_06_Register_Login_Page_Generator_Manager">
+        <methods>
+          <include name="TC_02_Login"/>
+          <include name="TC_01_Register"/>
+          <include name="TC_03_View_My_Account"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_06_Register_Login_Page_Generator_Manager -->
+      <class name="com.nopcommerce.users.Level_07_Register_Login_Swith_Page_Type">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_03_View_My_Account"/>
+          <include name="afterClass"/>
+          <include name="TC_02_Login"/>
+          <include name="TC_04_Switch_Page"/>
+          <include name="TC_01_Register"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_07_Register_Login_Swith_Page_Type -->
+      <class name="com.nopcommerce.users.Level_15_Register_Login_Share_State_Part2_Sort">
+        <methods>
+          <include name="TC_02_Sort_Name_Descending"/>
+          <include name="TC_04_Sort_Price_Descending"/>
+          <include name="TC_03_Sort_Price_Ascending"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_Sort_Name_Ascendingr"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_15_Register_Login_Share_State_Part2_Sort -->
+      <class name="com.nopcommerce.users.Level_05_Register_Login_Page_Factory">
+        <methods>
+          <include name="TC_02_Login"/>
+          <include name="TC_01_Register"/>
+          <include name="TC_03_View_My_Account"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_05_Register_Login_Page_Factory -->
+      <class name="com.nopcommerce.users.Level_14_Register_Login_Allure_Report">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_01_Register"/>
+          <include name="TC_02_Login"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_14_Register_Login_Allure_Report -->
+      <class name="com.nopcommerce.users.Level_01_Register_Login">
+        <methods>
+          <include name="TC_01_Register"/>
+          <include name="TC_02_Login"/>
+          <include name="afterClass"/>
+          <include name="TC_03_View_My_Account"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_01_Register_Login -->
+      <class name="com.nopcommerce.admin.Level_10_Upload_File">
+        <methods>
+          <include name="afterClass"/>
+          <include name="TC_01_UploadFile"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.admin.Level_10_Upload_File -->
+      <class name="com.nopcommerce.users.Level_12_Register_Login_Assert_Verify">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="TC_01_Register"/>
+          <include name="TC_02_Login"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_12_Register_Login_Assert_Verify -->
+      <class name="com.nopcommerce.users.Level_13_Register_Login_Log_Report_HTML">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="TC_02_Login"/>
+          <include name="TC_01_Register"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_13_Register_Login_Log_Report_HTML -->
+      <class name="com.nopcommerce.users.Level_02_Register_Login_Abstract_Page_01">
+        <methods>
+          <include name="afterClass"/>
+          <include name="TC_02_Login"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_Register"/>
+          <include name="TC_03_View_My_Account"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_02_Register_Login_Abstract_Page_01 -->
+      <class name="com.nopcommerce.users.Level_11_Register_Login_Element_Undisplayed">
+        <methods>
+          <include name="TC_04_Rest_Parameter_01"/>
+          <include name="beforeClass"/>
+          <include name="TC_05_Rest_Parameter_02"/>
+          <include name="afterClass"/>
+          <include name="TC_03_View_My_Account"/>
+          <include name="TC_01_Register"/>
+          <include name="TC_02_Login"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_11_Register_Login_Element_Undisplayed -->
+      <class name="com.saucelab.Level_20_Sort_ASC_DESC">
+        <methods>
+          <include name="TC_03_Account_Information"/>
+          <include name="TC_11_Search_Product"/>
+          <include name="afterClass"/>
+          <include name="TC_01_Sort_Product_Name"/>
+          <include name="TC_02_Sort_Product_Price"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.saucelab.Level_20_Sort_ASC_DESC -->
+      <class name="com.nopcommerce.users.Level_03_Register_Login_Page_Object">
+        <methods>
+          <include name="TC_03_View_My_Account"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="TC_01_Register"/>
+          <include name="TC_02_Login"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_03_Register_Login_Page_Object -->
+      <class name="com.nopcommerce.admin.Level_09_Web_Data_Table">
+        <methods>
+          <include name="afterClass"/>
+          <include name="TC_05_Position"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.admin.Level_09_Web_Data_Table -->
+      <class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser">
+        <methods>
+          <include name="TC_02_Login"/>
+          <include name="TC_01_Register"/>
+          <include name="TC_03_View_My_Account"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser -->
+      <class name="com.nopcommerce.users.Level_02_Register_Login_Abstract_Page_2extends">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_03_View_My_Account"/>
+          <include name="afterClass"/>
+          <include name="TC_02_Login"/>
+          <include name="TC_01_Register"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_02_Register_Login_Abstract_Page_2extends -->
+      <class name="com.nopcommerce.users.Level_08_Register_Login_Dynamic_Locator_Rest_Parameter">
+        <methods>
+          <include name="afterClass"/>
+          <include name="TC_03_View_My_Account"/>
+          <include name="TC_04_Rest_Parameter_01"/>
+          <include name="TC_01_Register"/>
+          <include name="TC_02_Login"/>
+          <include name="beforeClass"/>
+          <include name="TC_05_Rest_Parameter_02"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_08_Register_Login_Dynamic_Locator_Rest_Parameter -->
+      <class name="com.nopcommerce.users.Level_17_Register_Login_Pattern_Object">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="TC_03_Login"/>
+          <include name="TC_02_Register_Success"/>
+          <include name="TC_01_Validate_At_Register_Form"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_17_Register_Login_Pattern_Object -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

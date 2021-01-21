@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on chrome_ui"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.365">
+  <properties />
+  
+  
+            <testcase name="TC_02_Sort_Product_Price" time="10.622" classname="com.saucelab.Level_20_Sort_ASC_DESC" />
+                <testcase name="TC_03_Account_Information" time="0.002" classname="com.saucelab.Level_20_Sort_ASC_DESC" />
+                <testcase name="TC_11_Search_Product" time="0.002" classname="com.saucelab.Level_20_Sort_ASC_DESC" />
+                <testcase name="TC_01_Sort_Product_Name" time="10.739" classname="com.saucelab.Level_20_Sort_ASC_DESC" />
+      
+</testsuite>

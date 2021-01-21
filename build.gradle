@@ -9,7 +9,7 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
-    id 'io.qameta.allure'
+   // id 'io.qameta.allure'
 }
 
 repositories {
@@ -21,6 +21,7 @@ repositories {
 dependencies {
 	// https://mvnrepository.com/artifact/org.testng/testng
 	compile group: 'org.testng', name: 'testng', version: '6.14.3'
+	 testCompile fileTree('lib')
 	
 	// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
 	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
@@ -66,25 +67,44 @@ dependencies {
 	
 	// https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
 	compile group: 'io.qameta.allure', name: 'allure-testng', version: '2.13.5'
+	
+	// https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
 }
-allure{
+/**allure{
 	version='2.2.1'
 	autoconfigure=true
 	aspectjweaver=true
 	allureJavaVersion=LATEST_VERSION
-}
+}**/
 java{
 	sourceCompatibility=JavaVersion.VERSION_1_8
 	targetCompatibility=JavaVersion.VERSION_1_8
-	options.encoding='UTF-8'
+	compileJava.options.encoding = 'UTF-8'
 }
+compileJava{
+	sourceCompatibility=1.8
+	targetCompatibility=1.8
+	//options.encoding = 'UTF-8'
+	compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+} 
+}
+compileTestJava{
+	sourceCompatibility=1.8
+	targetCompatibility=1.8
+	options.encoding = 'UTF-8'
+}
+
 test{
-	useTestNG(){
-	suites 'src/test/resources/runLevel_20_Sort_ASC_DESC.xml'
-	outputDirectory=file("$projectDir/report-output")
+		useTestNG(){
+		suites 'src\test\resources\runLevel_20_Sort_ASC_DESC.xml'
+		outputDirectory=file("$projectDir/report-output")
 	}
-	testLogging{
-		showStandardStreams=true
+		testLogging{
+			showStandardStreams=true
 	}
-	reports.html.setDestination(file("$projectDir/report-output"))
+		reports.html.setDestination(file("$projectDir/gradle-output"))
 }

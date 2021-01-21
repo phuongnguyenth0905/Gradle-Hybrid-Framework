@@ -10,10 +10,14 @@ public class GlobalConstans {
 	public static final String OS_NAME = System.getProperty("os.name");
 	public static final String ROOT_FOLDER = System.getProperty("user.dir");
 	public static final String BROWSER_LOG_FOLDER = ROOT_FOLDER + getDirectorySlash("browserLog");
+	// src/main/resources/browserLog
 	public static final String DOWNLOAD_FOLDER = ROOT_FOLDER + getDirectorySlash("downloadFiles");
+	// src\main\resources\downloadFiles
 	public static final String UPLOAD_FOLDER = ROOT_FOLDER +getDirectorySlash( "uploadFiles");
+	
+	// src/main/resources/uploadFiles
 	public static final String AUTOIT_FOLDER = ROOT_FOLDER + getDirectorySlash("autoITScript");
-
+   // src\main\resources\autoITScript
 	public static String getDirectorySlash(String folderName) {
 		if (isMac() || isUnix() || isSolaris()) {
 			folderName = "/" + folderName + "/";

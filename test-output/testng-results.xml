@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2021-01-21 09:26:53,605] TC_01_Sort_Product_Name: Name (A to Z)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-21 09:26:58,942]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-21 09:26:58,943] TC_01_Sort_Product_Name: Name (Z to A)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-21 09:27:04,307]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-21 09:27:04,369] TC_02_Sort_Product_Price: Price (low to high)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-21 09:27:09,691]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-21 09:27:09,691] TC_02_Sort_Product_Price: Price (high to low)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-21 09:27:14,987]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Sauce lab" duration-ms="36827" started-at="2021-01-21T02:26:38Z" finished-at="2021-01-21T02:27:15Z">
+    <groups>
+    </groups>
+    <test name="Run on chrome_ui" duration-ms="36827" started-at="2021-01-21T02:26:38Z" finished-at="2021-01-21T02:27:15Z">
+      <class name="com.saucelab.Level_20_Sort_ASC_DESC">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.saucelab.Level_20_Sort_ASC_DESC@4f6ee6e4]" name="beforeClass" is-config="true" duration-ms="14746" started-at="2021-01-21T02:26:38Z" finished-at="2021-01-21T02:26:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome_ui]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_Sort_Product_Name()[pri:0, instance:com.saucelab.Level_20_Sort_ASC_DESC@4f6ee6e4]" name="TC_01_Sort_Product_Name" duration-ms="10739" started-at="2021-01-21T02:26:53Z" finished-at="2021-01-21T02:27:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-01-21 09:26:53,605] TC_01_Sort_Product_Name: Name (A to Z)
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-21 09:26:58,942]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-21 09:26:58,943] TC_01_Sort_Product_Name: Name (Z to A)
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-21 09:27:04,307]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Sort_Product_Name -->
+        <test-method status="PASS" signature="TC_02_Sort_Product_Price()[pri:0, instance:com.saucelab.Level_20_Sort_ASC_DESC@4f6ee6e4]" name="TC_02_Sort_Product_Price" duration-ms="10622" started-at="2021-01-21T02:27:04Z" finished-at="2021-01-21T02:27:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-01-21 09:27:04,369] TC_02_Sort_Product_Price: Price (low to high)
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-21 09:27:09,691]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-21 09:27:09,691] TC_02_Sort_Product_Price: Price (high to low)
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-21 09:27:14,987]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_Sort_Product_Price -->
+        <test-method status="PASS" signature="TC_03_Account_Information()[pri:0, instance:com.saucelab.Level_20_Sort_ASC_DESC@4f6ee6e4]" name="TC_03_Account_Information" duration-ms="2" started-at="2021-01-21T02:27:14Z" finished-at="2021-01-21T02:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Account_Information -->
+        <test-method status="PASS" signature="TC_11_Search_Product()[pri:0, instance:com.saucelab.Level_20_Sort_ASC_DESC@4f6ee6e4]" name="TC_11_Search_Product" duration-ms="2" started-at="2021-01-21T02:27:14Z" finished-at="2021-01-21T02:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_11_Search_Product -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.saucelab.Level_20_Sort_ASC_DESC@4f6ee6e4]" name="afterClass" is-config="true" duration-ms="632" started-at="2021-01-21T02:27:14Z" finished-at="2021-01-21T02:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.saucelab.Level_20_Sort_ASC_DESC -->
+    </test> <!-- Run on chrome_ui -->
+  </suite> <!-- Sauce lab -->
+</testng-results>

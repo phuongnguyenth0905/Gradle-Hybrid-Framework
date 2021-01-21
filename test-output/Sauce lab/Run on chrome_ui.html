@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>TestNG:  Run on chrome_ui</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Run on chrome_ui</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 21 09:26:38 ICT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>36 seconds (36827 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saucelab.Level_20_Sort_ASC_DESC.TC_01_Sort_Product_Name()'><b>TC_01_Sort_Product_Name</b><br>Test class: com.saucelab.Level_20_Sort_ASC_DESC<br/>
+<a href="#Output-299819831" onClick='toggleBox("Output-299819831", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-299819831" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-299819831">
+[INFO ] [2021-01-21 09:26:53,605] TC_01_Sort_Product_Name: Name (A to Z)
+<br><br/>
+[INFO ] [2021-01-21 09:26:58,942]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2021-01-21 09:26:58,943] TC_01_Sort_Product_Name: Name (Z to A)
+<br><br/>
+[INFO ] [2021-01-21 09:27:04,307]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.saucelab.Level_20_Sort_ASC_DESC@4f6ee6e4</td></tr>
+<tr>
+<td title='com.saucelab.Level_20_Sort_ASC_DESC.TC_02_Sort_Product_Price()'><b>TC_02_Sort_Product_Price</b><br>Test class: com.saucelab.Level_20_Sort_ASC_DESC<br/>
+<a href="#Output-738174829" onClick='toggleBox("Output-738174829", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-738174829" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-738174829">
+[INFO ] [2021-01-21 09:27:04,369] TC_02_Sort_Product_Price: Price (low to high)
+<br><br/>
+[INFO ] [2021-01-21 09:27:09,691]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2021-01-21 09:27:09,691] TC_02_Sort_Product_Price: Price (high to low)
+<br><br/>
+[INFO ] [2021-01-21 09:27:14,987]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.saucelab.Level_20_Sort_ASC_DESC@4f6ee6e4</td></tr>
+<tr>
+<td title='com.saucelab.Level_20_Sort_ASC_DESC.TC_03_Account_Information()'><b>TC_03_Account_Information</b><br>Test class: com.saucelab.Level_20_Sort_ASC_DESC</td>
+<td></td>
+<td>0</td>
+<td>com.saucelab.Level_20_Sort_ASC_DESC@4f6ee6e4</td></tr>
+<tr>
+<td title='com.saucelab.Level_20_Sort_ASC_DESC.TC_11_Search_Product()'><b>TC_11_Search_Product</b><br>Test class: com.saucelab.Level_20_Sort_ASC_DESC</td>
+<td></td>
+<td>0</td>
+<td>com.saucelab.Level_20_Sort_ASC_DESC@4f6ee6e4</td></tr>
+</table><p>
+</body>
+</html>
